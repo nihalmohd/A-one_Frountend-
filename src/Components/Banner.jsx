@@ -2,7 +2,9 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div>Banner</div>
+    <div>
+        <div className="w-screen h-[500px] bg-[#17181a]"></div>
+    </div>
   )
 }
 
