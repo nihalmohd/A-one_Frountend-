@@ -1,15 +1,46 @@
 import React from 'react'
+import { IoIosArrowDown } from "react-icons/io";
 
 const Service = () => {
-  return (
-    <div>
-        <div className=" w-screen h-full">
-            <div className="w-full h-[250px] bg-yellow-400"></div>
-            <div className="w-full h-[250px] "></div>
-        </div>
+    return (
+        <div>
+            <div className=" w-full h-full">
+                <div className="w-full h-[325px] bg-yellow-400 pt-10">
+                    <div className="w-full h-24  flex justify-center items-start ">
+                        <div className="w-full h-28 flex justify-center items-center ">
+                            <div className="w-96 h-16     ">
+                                <h1 className='font-Poppins font-semibold text-4xl  text-center'>OUR SERVICES</h1>
+                            <div className="w-full h-5  flex justify-center items-end">
+                                <div className="w-20 h-1 bg-white rounded-md"></div>
+                            </div>
+                            </div>
+                        </div>
 
-    </div>
-  )
+                    </div>
+                    <div className="w-full h-44">
+                        <div className="w-full h-24  flex justify-center items-center">
+                            <div className="w-9/12 h-20  flex justify-center items-center  ">
+                                <h1 className='font-Poppins font-thin text-base text-black text-center'>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                </h1>
+                            </div>
+                        </div>
+                        <div className="w-full h-20  p-2">
+                            <div className="w-full h-full  flex justify-center items-center">
+                                <div className="w-56 h-full  flex justify-center items-center">
+                                <h1 className='text-6xl font-thin' ><IoIosArrowDown/></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full h-[400px] bg-white ">
+                    
+                </div>
+            </div>
+
+        </div>
+    )
 }
 
 export default Service
