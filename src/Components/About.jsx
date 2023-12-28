@@ -4,7 +4,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 const About = () => {
   return (
     <div>
-      <div className="w-full h-[468px] bg-[#f2f2f2]">
+      <div className="w-full h-full bg-[#f2f2f2]">
         <div className="w-full h-full flex justify-center items-center ">
           <div className="w-8/12 h-full ">
             <div className="w-full h-16  mt-9">
@@ -13,20 +13,20 @@ const About = () => {
                 <div className="w-20 h-1 bg-yellow-400 rounded-md"></div>
               </div>
             </div>
-            <div className="w-full h-fit mt-2  flex justify-between items-start gap-2">
-              <div className="w-[400px] h-28 ">
-                <h1 className='font-Poppins font-thin text-sm text-[#e1e1e1] text-left'>
+            <div className="w-full h-fit mt-2  md:flex md:justify-between md:items-start gap-2 ">
+              <div className="md:w-[400px] h-full  ">
+                <h1 className='font-Poppins font-thin text-sm text-[#cacaca] text-left'>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. The book is sample test for added any where
                 </h1>
               </div>
-              <div className="w-[400px] h-28 ">
-                <h1 className='font-Poppins font-thin text-sm text-[#e1e1e1] text-left '>
+              <div className="md:w-[400px] md:h-full sm:pt-2 md:pt-0 ">
+                <h1 className='font-Poppins font-thin text-sm text-[#cacaca] text-left '>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.The book is sample test for added any where
                 </h1>
               </div>
             </div>
-            <div className="w-full h-44  flex justify-center items-center">
-              <div className="w-10/12 h-full  md:grid md:grid-cols-5 gap-1">
+            <div className="hidden  md:w-full md:h-full md:flex md:justify-center md:items-center md:mt-5">
+              <div className=" w-10/12 h-full md:grid md:grid-cols-5 md:gap-1">
                 <div className="w-full h-full flex justify-center items-center ">
 
                   <div className='w-10/12 h-full'>

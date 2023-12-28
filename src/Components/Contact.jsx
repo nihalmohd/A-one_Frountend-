@@ -8,16 +8,16 @@ const Contact = () => {
               <h1 className='font-Poppins font-semibold text-4xl  text-center'>CONTACT US</h1>
             </div>
         <div className="w-full h-full  flex justify-center items-start">
-          <div className="w-8/12 h-80 ">
-            <div className="w-full h-20 md:flex md:justify-between md:items-center md:gap-4 p-2">
-              <input className='w-1/2 bg-[#f2f2f2] border-none shadow-sm text-black font-Poppins font-semibold' type="text" placeholder='Your Name' />
-              <input className='w-1/2 bg-[#f2f2f2] border-none shadow-sm text-black font-Poppins font-semibold' type="text" placeholder='Your Email' />
+          <div className="w-8/12 h-80  ">
+            <div className="sm:h-full md:w-full md:h-20 md:flex md:justify-between md:items-center md:gap-4 md:p-2 ">
+              <input className='w-full mt-1  md:w-1/2 bg-[#f2f2f2] border-none shadow-sm text-black font-Poppins font-semibold ' type="text" placeholder='Your Name' />
+              <input className='w-full mt-1 md:w-1/2 bg-[#f2f2f2] border-none shadow-sm text-black font-Poppins font-semibold' type="text" placeholder='Your Email' />
             </div>
-            <div className="w-full h-fit p-2">
+            <div className="sm:w-full w-full h-fit mt-1 md:p-1">
               <textarea className='w-full bg-[#f2f2f2] border-none shadow-sm text-black font-Poppins font-semibold' name="" id="" cols="30" rows="10" placeholder='Your Message'></textarea>
               <div className="w-full h-16 flex justify-center items-center">
                 <div className="w-56 h-full  flex justify-center items-center">
-                  <button className='w-full h-10  rounded-3xl font-Poppins font-semibold text-base bg-yellow-400 ' ><h1>SEND</h1></button>
+                  <button className='w-full h-10  rounded-3xl font-Poppins font-semibold text-base bg-yellow-400 hover:font-Poppins hover:bg-transparent hover:border-2 hover:border-yellow-400 ' ><h1>SEND</h1></button>
                 </div>
               </div>
             </div>
