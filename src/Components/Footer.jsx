@@ -48,23 +48,23 @@ const Footer = () => {
               <div className="w-full h-10  flex justify-center items-center">
                 <div className="w-full h-full flex justify-center items-center">
                 <div className="w-96 h-10  flex justify-center md:justify-end items-center gap-2">
-                <div className="w-10 h-10 bg-gray-200 rounded-full flex justify-center items-center">
-                   <h1 className='font-Poppins text-[#676767] text-lg font-semibold'><FaFacebookSquare /></h1>
+                <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                   <h1 className='font-Poppins  text-lg font-semibold'><FaFacebookSquare /></h1>
                 </div>
-                  <div className="w-10 h-10 bg-gray-200 rounded-full flex justify-center items-center">
-                     <h1 className='font-Poppins text-[#676767] text-lg font-semibold'><MdOutlineAlternateEmail /></h1>
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                     <h1 className='font-Poppins  text-lg font-semibold'><MdOutlineAlternateEmail /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 rounded-full flex justify-center items-center">
-                     <h1 className='font-Poppins text-[#676767] text-base font-semibold'><FaPhoneAlt /></h1>
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                     <h1 className='font-Poppins  text-base font-semibold'><FaPhoneAlt /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 rounded-full flex justify-center items-center">
-                     <h1 className='font-Poppins text-[#676767] text-lg font-semibold'><FaInstagram /></h1>
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                     <h1 className='font-Poppins  text-lg font-semibold '><FaInstagram /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 rounded-full flex justify-center items-center">
-                     <h1 className='font-Poppins text-[#676767] text-xl font-semibold'><FaWhatsapp /></h1>
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                     <h1 className='font-Poppins  text-xl font-semibold'><FaWhatsapp /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 rounded-full flex justify-center items-center">
-                     <h1 className='font-Poppins text-[#676767] text-lg font-semibold'><FaLocationDot /></h1>
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                     <h1 className='font-Poppins text-lg font-semibold'><FaLocationDot /></h1>
                   </div>
                 </div>
                  
