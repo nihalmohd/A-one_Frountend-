@@ -5,10 +5,25 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import copy from 'clipboard-copy';
+
 
 
 
 const Footer = () => {
+
+  
+  const handleCopyClick =  () => {
+    const phoneNumber = '8111933398'; 
+    try {
+       copy(phoneNumber);
+      console.log('Phone number copied to clipboard:', phoneNumber);
+    } catch (error) {
+      console.error('Failed to copy phone number:', error);
+    }
+  };
+
+
   return (
     <div >
       <div className="w-full md:h-[225px] bg-[#333333] p-2">
@@ -48,22 +63,22 @@ const Footer = () => {
               <div className="w-full h-10  flex justify-center items-center">
                 <div className="w-full h-full flex justify-center items-center">
                 <div className="w-96 h-10  flex justify-center md:justify-end items-center gap-2">
-                <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer" onClick={()=>{window.location.href = 'https://www.facebook.com/mubashir.nk?mibextid=JRoKGi'}}>
                    <h1 className='font-Poppins  text-lg font-semibold'><FaFacebookSquare /></h1>
                 </div>
-                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://www.instagram.com/moidu_mubashir/'}}>
                      <h1 className='font-Poppins  text-lg font-semibold'><MdOutlineAlternateEmail /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={handleCopyClick}>
                      <h1 className='font-Poppins  text-base font-semibold'><FaPhoneAlt /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://www.instagram.com/moidu_mubashir/'}}>
                      <h1 className='font-Poppins  text-lg font-semibold '><FaInstagram /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://www.instagram.com/moidu_mubashir/'}}>
                      <h1 className='font-Poppins  text-xl font-semibold'><FaWhatsapp /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-black cursor-pointer">
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://www.google.com/maps/place/A.one+tools+%26+tiller+spares/@10.946684,76.0499058,20.88z/data=!4m15!1m8!3m7!1s0x3ba7b5cd74d00c4d:0x4fa7f6834d8934f7!2sKadampuzha,+Kerala+676553!3b1!8m2!3d10.9417627!4d76.0362897!16s%2Fm%2F043l_ny!3m5!1s0x3ba7b5dce867ec05:0xa4025b7b66fd1882!8m2!3d10.9466628!4d76.0499878!16s%2Fg%2F11vcxgzwyh?hl=en&entry=ttu'}}>
                      <h1 className='font-Poppins text-lg font-semibold'><FaLocationDot /></h1>
                   </div>
                 </div>
@@ -72,7 +87,7 @@ const Footer = () => {
               </div>
               <div className="w-full h-2  flex justify-center items-center mt-2">
                 <div className="md:w-10/12 h-8 flex justify-end items-center">
-                  <h1 className='font-Poppins text-[#676767] text-sm text-start '>Provided by <span>Mohd Nihal</span></h1>
+                  <h1 className='font-Poppins text-[#676767] text-sm text-start '>Provided by <span className='underline hover:cursor-pointer'>Mohd Nihal</span></h1>
                 </div>
               </div>
 
