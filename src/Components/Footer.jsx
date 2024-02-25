@@ -66,7 +66,7 @@ const Footer = () => {
                 <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer" onClick={()=>{window.location.href = 'https://www.facebook.com/mubashir.nk?mibextid=JRoKGi'}}>
                    <h1 className='font-Poppins  text-lg font-semibold'><FaFacebookSquare /></h1>
                 </div>
-                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://www.instagram.com/moidu_mubashir/'}}>
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvbMfXlMrjdZTHgKMSBFvFVcNQNNFPLLxmZhpcZMnxLQrKvQfMHBVrXqsTVtCNWZwRhZsr'}}>
                      <h1 className='font-Poppins  text-lg font-semibold'><MdOutlineAlternateEmail /></h1>
                   </div>
                   <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={handleCopyClick}>
@@ -75,7 +75,7 @@ const Footer = () => {
                   <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://www.instagram.com/moidu_mubashir/'}}>
                      <h1 className='font-Poppins  text-lg font-semibold '><FaInstagram /></h1>
                   </div>
-                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://www.instagram.com/moidu_mubashir/'}}>
+                  <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://wa.me/message/ZPMXCBTD3DZZG1'}}>
                      <h1 className='font-Poppins  text-xl font-semibold'><FaWhatsapp /></h1>
                   </div>
                   <div className="w-10 h-10 bg-gray-200 text-[#676767] hover:text-white rounded-full flex justify-center items-center hover:bg-[#333333] cursor-pointer"onClick={()=>{window.location.href = 'https://www.google.com/maps/place/A.one+tools+%26+tiller+spares/@10.946684,76.0499058,20.88z/data=!4m15!1m8!3m7!1s0x3ba7b5cd74d00c4d:0x4fa7f6834d8934f7!2sKadampuzha,+Kerala+676553!3b1!8m2!3d10.9417627!4d76.0362897!16s%2Fm%2F043l_ny!3m5!1s0x3ba7b5dce867ec05:0xa4025b7b66fd1882!8m2!3d10.9466628!4d76.0499878!16s%2Fg%2F11vcxgzwyh?hl=en&entry=ttu'}}>
