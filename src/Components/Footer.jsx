@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
               <div className="w-full h-2  flex justify-center items-center mt-2">
                 <div className="md:w-10/12 h-8 flex justify-end items-center">
-                  <h1 className='font-Poppins text-[#676767] text-sm text-start '>Provided by <span className='underline hover:cursor-pointer'>Mohd Nihal</span></h1>
+                  <h1 className='font-Poppins text-[#676767] text-sm text-start '>Provided by <span className='underline hover:cursor-pointer hover:text-gray-200a'onClick={()=>{window.location.href = 'https://github.com/nihalmohd'}}>Mohd Nihal</span></h1>
                 </div>
               </div>
 
